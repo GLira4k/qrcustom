@@ -55,6 +55,19 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.qrcode-container {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+}
+
+image{
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
